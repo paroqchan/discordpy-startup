@@ -13,9 +13,7 @@ async def on_command_error(ctx, error):
     await ctx.send(error_msg)
 
 
-@bot.command()
-async def r！木材(ctx):
-    await ctx.send('原木')
+
 
 
 bot.run(token)
