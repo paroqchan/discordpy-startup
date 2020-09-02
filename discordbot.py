@@ -14,7 +14,7 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def r!木材(ctx):
+async def 'r!木材'(ctx):
     await ctx.send('原木')
 
 
